@@ -1,0 +1,11 @@
+1. 3 types of writing CSS :
+-> Inline CSS
+-> Internal CSS
+-> External CSS [This is more useful]
+
+2. Types of Selectors :
+-> Element
+-> Id
+-> Class
+-> Group
+

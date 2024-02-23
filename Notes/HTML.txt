@@ -1,0 +1,62 @@
+1. Semantics Tag :
+<h1> -> <h6>
+<p>     <a>     
+<ul>    <ol>
+<table>     <tr>    <td>
+<img>
+<form>
+<input>
+
+2. Sturcture Tag :
+<html>      <head>      <body>
+<header>    <footer>
+<main>
+<aside>
+<article>
+<section>
+<nav>
+
+3. Formatting Tag :
+<b> <i> <u> <s> <br>
+<strong>    <em>
+<sup>   <sub>
+<pre>
+<code>
+
+4. The real meaning of <ul> and <ol> is that the 'ul' contains unordered list 
+and 'ol' contains ordered list that follows some sequence
+
+5. table
+-> thead : heading of the table 
+-> tbody : actual content
+-> tfoot : summarization
+-> tr , td , th : table row, table data, table head
+
+6. Efficient Coding Techinques
+tag1'>'tag2 - used for Nesting tags in tag
+tag1'+'tag2 - two tags at same means like siblings
+p{This is my para} - inserting data between tags
+p#para1 - for creating id
+p.para - for creating class
+
+7. Non-Semantic Tag
+Div tag - used for wrapping multiple tags or content
+
+Block Elements - takes whole screen width
+Inline Elements - takes content width
+
+-> For making Block to Inline Elements use display property as Inline and vice-versa
+
+8. Forms
+<form> used for creating HTML form
+<input> for taking input from users in different form
+<label> -> create label
+        -> screen reader
+        -> for = " " should be equal to id = " " of input
+
+Form Elements 
+input, label, select, option, button, textarea, fieldset, legend
+
+9. Details tag used to create a section like FAQ
+in this 'summary' tag is used to give the heading 
+
