@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+    }
+    .box {
+        background-color: aqua;
+    }
+    .box1 {
+        color: red;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid blue;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    .box2 {
+        color: green;
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid black;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    /* Margin-Collapse 
+    In this concept the max margin value is taken between two elements.
+      */
+    </style>
+</head>
+<body>
+    <div class="box box1">I am box</div>
+    <div class="box box2">I am another box</div>
+    <p>
+    The below former image depicts that when the 'height' of the element is
+    given then it will be calculated as total height of the element excluding
+    'padding' and 'border'. And the Latter image depicts that when we give a
+    'box-sizing : border-box' property to the element then the height of that
+    element will be '200 px' including 'padding' and 'border'.
+    </p>
+    <img src="assets/Box Model.png" height="200" alt="box model" style="border: 2px solid black"/>
+    <img src="assets/Box Model_1.png" height="200" alt="Box Model_1" style="border: 2px solid black"/>
+</body>
+</html>

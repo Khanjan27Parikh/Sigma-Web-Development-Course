@@ -12,3 +12,6 @@
 -> Desendant Selector - When it is not direct child of the parent element [div p]
 -> Universal Selector [*]
 -> Psuedo Selector [a:visited, a:link, a:active, a:hover, p:first-child]
+
+3. CSS Box Model :
+content > padding > border > margin
