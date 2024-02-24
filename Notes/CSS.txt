@@ -4,8 +4,11 @@
 -> External CSS [This is more useful]
 
 2. Types of Selectors :
--> Element
--> Id
--> Class
--> Group
-
+-> Element [p, div, h1]
+-> Id [#red, #green]
+-> Class [.blue, .yellow]
+-> Group []
+-> Child Selector - when it is direct child of the parent element [div > p]
+-> Desendant Selector - When it is not direct child of the parent element [div p]
+-> Universal Selector [*]
+-> Psuedo Selector [a:visited, a:link, a:active, a:hover, p:first-child]
