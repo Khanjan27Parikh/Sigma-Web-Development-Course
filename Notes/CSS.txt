@@ -15,3 +15,8 @@
 
 3. CSS Box Model :
 content > padding > border > margin
+
+4. Fonts, Text, Color :
+-> font-style, font-size, font-family, font-weight
+-> text-transform, text-decoration, text-decoration-color, text-decoration-style, text-indent, text-overflow, overflow
+-> line-height, text-align, word-break
