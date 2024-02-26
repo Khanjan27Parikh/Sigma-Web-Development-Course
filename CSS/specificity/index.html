@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity</title>
+    <style>
+      /* specificity of this element is 1 */
+      h1 {
+        color: aqua;
+      }
+      /* specificity of this element is 10 */
+      .yellow {
+        color: yellow;
+      }
+      /* specificity of this element is 1+10=11 */
+      h1.cred {
+        color: red;
+      }
+      /* specificity of this element is 10 */
+      .cpurple {
+        color: purple;
+      }
+      p{
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="yellow cred cpurple">CSS Specificity</h1>
+    <!-- If there is same type of selectors then the order of the execution will decide that. -->
+
+    <!-- 
+        inline-css > id selector > class or attribute selector > element selector > universal selector
+     -->
+
+    <p>specificity of different selectors are :</p>
+    <ol>
+      <li>universal -> 0</li>
+      <li>element & pseudo -> 1</li>
+      <li>class, atrributes & pseudo-class -> 10</li>
+      <li>ID -> 100</li>
+      <li>inline -> 1000</li>
+    </ol>
+  </body>
+</html>
