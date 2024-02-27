@@ -20,3 +20,11 @@ content > padding > border > margin
 -> font-style, font-size, font-family, font-weight
 -> text-transform, text-decoration, text-decoration-color, text-decoration-style, text-indent, text-overflow, overflow
 -> line-height, text-align, word-break
+
+5. CSS Sizing Units
+-> px : 1/96th of 1inch
+-> vw : viewport's width
+-> vh : viewport's height
+-> rem & em : em inherits from the parent element & rem inherits from the root element.
+-> vmin & vmax : it will take the min or max of width and height (for eg: for desktop vmin=vh,vmax=vw)
+-> % : it will take width of its parent
