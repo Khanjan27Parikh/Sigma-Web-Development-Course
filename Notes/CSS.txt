@@ -28,3 +28,8 @@ content > padding > border > margin
 -> rem & em : em inherits from the parent element & rem inherits from the root element.
 -> vmin & vmax : it will take the min or max of width and height (for eg: for desktop vmin=vh,vmax=vw)
 -> % : it will take width of its parent
+
+6. Display properties
+-> Inline
+-> Inline-block
+-> display : none (element including its space nothing will be shown) , visibility : hidden (element will be there just it will not show up)
