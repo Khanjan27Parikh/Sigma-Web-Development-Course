@@ -33,3 +33,8 @@ content > padding > border > margin
 -> Inline
 -> Inline-block
 -> display : none (element including its space nothing will be shown) , visibility : hidden (element will be there just it will not show up)
+
+7. Shadows & Outlines
+-> box-shadow
+-> text-shadow
+-> Outline : is not a part of Box-Model whereas Border is part of Box-Model
