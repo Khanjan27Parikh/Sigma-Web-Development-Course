@@ -38,3 +38,8 @@ content > padding > border > margin
 -> box-shadow
 -> text-shadow
 -> Outline : is not a part of Box-Model whereas Border is part of Box-Model
+
+8. CSS overflow
+-> This will help to stop overflow of the content from the container
+-> overflow : auto, scroll;
+-> white-space : nowrap; - This will not allow the content to scroll vertically
