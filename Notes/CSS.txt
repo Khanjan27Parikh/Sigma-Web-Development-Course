@@ -50,3 +50,10 @@ content > padding > border > margin
 -> Absolute : It is positioned to nearest positioned parent
 -> Fixed : It will be fixed in the website 
 -> Sticky : It will stick to the top or bottom
+
+10. CSS Variables
+-> we can use this to define the global properties of the website syntax is :
+:root{
+    --color : rgb();
+    --seccolor : rgb();
+}
