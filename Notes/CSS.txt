@@ -57,3 +57,10 @@ content > padding > border > margin
     --color : rgb();
     --seccolor : rgb();
 }
+
+11. Media Query
+-> used to style differently on mobile, laptop device
+syntax :
+@media not|only mediatype and(expressions) {
+    CSS Code
+}
