@@ -64,3 +64,13 @@ syntax :
 @media not|only mediatype and(expressions) {
     CSS Code
 }
+
+12. More on Selectors
+-> Group selector : a, p, div, .box
+-> .box:nth-child(even){}
+-> .boxes::before{
+    content:"I am doing well";
+}
+-> .boxes::after{
+    content: "This course is awesome";
+}
