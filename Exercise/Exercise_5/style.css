@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav{
+    background-color: rgb(37, 37, 203);
+    padding: 15px;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
