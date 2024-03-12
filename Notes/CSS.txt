@@ -74,3 +74,7 @@ syntax :
 -> .boxes::after{
     content: "This course is awesome";
 }
+
+13. Flexbox
+-> Apllied on the container : display: flex;
+-> by default it will change the direction from verticle to horizontal.
