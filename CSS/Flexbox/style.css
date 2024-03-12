@@ -2,9 +2,12 @@
     border: 2px solid red;
     display: flex;
     height: 80vh;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    align-items: center; /* when one line */
     /* flex-direction:column-reverse; */
+    flex-wrap: wrap;
+    align-content: center; /* When more then one line */
+    /* There is no justify-items on Flexbox */
 }
 
 .item{
